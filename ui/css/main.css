@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --animate-duration: 500ms;
+}
+
+::selection{
+    background-color: transparent;
+}
+
+*{
+    font-family: 'Saira Semi Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.interaction-container{
+    width: 50%;
+    height: 15%;
+    color: white;
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
+}
+
+.interaction-text{
+    width: 80%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.interaction-text-container{
+    width: fit-content;
+}
+
+.interaction-img{
+    width: 15%;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interaction-img > img{
+    width: 80px;
+}
+
+button{
+    padding: 0px 7px 0px 7px;
+    font-weight: 600;
+    background: transparent;
+    color: #eee;
+    border: 1px solid #eee;
+    border-radius: 2px;
+}
+
+img{
+    position: absolute;
+}
+
+.hidden{
+    display: none;
+}
